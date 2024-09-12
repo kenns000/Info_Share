@@ -1,0 +1,141 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #007bff;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.hero-content {
+    margin-top: 40px;
+}
+
+.hero-content h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.cta-button:hover {
+    background-color: #218838;
+}
+
+/* Sections */
+.section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.steps,
+.benefits-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.step,
+.benefit {
+    flex: 1;
+    max-width: 250px;
+}
+
+.step i,
+.benefit i {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.step h3,
+.benefit h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+/* CTA Section */
+.cta-section {
+    background-color: #28a745;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.cta-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta-section p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-links {
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    color: white;
+    margin-right: 15px;
+    font-size: 24px;
+}
+
+.social-links a:hover {
+    color: #007bff;
+}
