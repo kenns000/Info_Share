@@ -48,6 +48,4 @@ Here are some projects related to InfoShare or with similar functionality:
 Buffer: A social media management tool for scheduling and sharing posts.
 ShareThis: A tool for adding social media sharing buttons to websites.
 Licensing
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-
+This project is licensed under the MIT License.
