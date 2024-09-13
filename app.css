@@ -1,65 +1,104 @@
 body {
     font-family: Arial, sans-serif;
+    /* Sets font for the entire page */
     background-color: #f4f4f4;
+    /* Light grey background color */
     color: #333;
+    /* Dark grey text color */
     display: flex;
+    /* Uses flexbox for centering content */
     justify-content: center;
+    /* Horizontally centers content */
     align-items: center;
+    /* Vertically centers content */
     height: 100vh;
+    /* Full viewport height */
     margin: 0;
+    /* Removes default margin */
 }
 
 .container {
     background-color: #fff;
+    /* White background for the container */
     padding: 20px;
+    /* Padding inside the container */
     border-radius: 8px;
+    /* Rounded corners */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow around the container */
     text-align: center;
+    /* Center-aligns text within the container */
     width: 300px;
+    /* Fixed width for the container */
 }
 
 textarea {
     width: 100%;
+    /* Full width of the container */
     height: 100px;
+    /* Fixed height for the textarea */
     margin-bottom: 10px;
+    /* Space below the textarea */
     padding: 10px;
+    /* Padding inside the textarea */
     border: 1px solid #ccc;
+    /* Light grey border */
     border-radius: 4px;
+    /* Rounded corners for the textarea */
 }
 
 button {
     padding: 10px 20px;
+    /* Padding inside the button */
     background-color: #28a745;
+    /* Green background color */
     color: #fff;
+    /* White text color */
     border: none;
+    /* No border */
     border-radius: 4px;
+    /* Rounded corners for the button */
     cursor: pointer;
+    /* Pointer cursor on hover */
 }
 
 button:hover {
     background-color: #218838;
+    /* Darker green on hover */
 }
 
 .share-links {
     margin-top: 20px;
+    /* Space above share links */
 }
 
 .share-links a {
     display: inline-block;
+    /* Inline-block for link styling */
     margin-right: 15px;
+    /* Space between share links */
     padding: 10px;
+    /* Padding inside the link */
     background-color: #007bff;
+    /* Blue background color */
     color: white;
+    /* White text color */
     border-radius: 50%;
+    /* Circular links */
     text-align: center;
+    /* Center-aligns text/icons within the link */
     text-decoration: none;
+    /* Removes underline from links */
     font-size: 24px;
+    /* Font size for icons */
 }
 
 .share-links a:hover {
     background-color: #0056b3;
+    /* Darker blue on hover */
 }
 
 .share-links a i {
     font-size: 24px;
+    /* Font size for icons within the share links */
 }

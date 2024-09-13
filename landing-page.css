@@ -1,141 +1,202 @@
 /* General Styles */
 body {
     margin: 0;
+    /* Removes default margin around the body */
     font-family: 'Arial', sans-serif;
+    /* Sets font for the page */
     background-color: #f4f4f4;
+    /* Light grey background color */
     color: #333;
+    /* Dark grey text color */
 }
 
 a {
     text-decoration: none;
+    /* Removes underline from links */
     color: white;
+    /* Sets link color to white */
 }
 
 /* Hero Section */
 .hero {
     background-color: #007bff;
+    /* Blue background for the hero section */
     color: white;
+    /* White text color */
     padding: 50px 0;
+    /* Vertical padding */
     text-align: center;
+    /* Center-aligns text */
 }
 
 .navbar {
     display: flex;
+    /* Flexbox layout for navbar */
     justify-content: space-between;
+    /* Space between logo and nav links */
     padding: 10px 20px;
+    /* Padding around navbar */
 }
 
 .logo {
     font-size: 24px;
+    /* Font size for the logo */
     font-weight: bold;
+    /* Bold text for the logo */
 }
 
 .nav-links {
     list-style: none;
+    /* Removes default list styling */
     display: flex;
+    /* Flexbox layout for nav links */
     gap: 20px;
+    /* Space between nav links */
 }
 
 .nav-links a {
     color: white;
+    /* White text color for nav links */
     font-weight: bold;
+    /* Bold text for nav links */
     text-transform: uppercase;
+    /* Uppercase text for nav links */
 }
 
 .hero-content {
     margin-top: 40px;
+    /* Space above hero content */
 }
 
 .hero-content h2 {
     font-size: 48px;
+    /* Large font size for the heading */
     margin-bottom: 10px;
+    /* Space below heading */
 }
 
 .hero-content p {
     font-size: 20px;
+    /* Font size for paragraph text */
     margin-bottom: 20px;
+    /* Space below paragraph */
 }
 
 .cta-button {
     padding: 10px 20px;
+    /* Padding inside the button */
     background-color: #28a745;
+    /* Green background color for the button */
     color: white;
+    /* White text color */
     border-radius: 5px;
+    /* Rounded corners for the button */
     font-size: 18px;
+    /* Font size for button text */
 }
 
 .cta-button:hover {
     background-color: #218838;
+    /* Darker green on hover */
 }
 
 /* Sections */
 .section {
     padding: 50px 0;
+    /* Vertical padding for sections */
     text-align: center;
+    /* Center-aligns text in sections */
 }
 
 .steps,
 .benefits-container {
     display: flex;
+    /* Flexbox layout for steps/benefits */
     justify-content: center;
+    /* Center-aligns items horizontally */
     gap: 30px;
+    /* Space between items */
     margin-top: 20px;
+    /* Space above steps/benefits */
 }
 
 .step,
 .benefit {
     flex: 1;
+    /* Flex-grow to allow items to grow equally */
     max-width: 250px;
+    /* Maximum width for items */
 }
 
 .step i,
 .benefit i {
     font-size: 40px;
+    /* Font size for icons */
     margin-bottom: 10px;
+    /* Space below icons */
 }
 
 .step h3,
 .benefit h3 {
     font-size: 22px;
+    /* Font size for subheadings */
     margin-bottom: 10px;
+    /* Space below subheadings */
 }
 
 /* CTA Section */
 .cta-section {
     background-color: #28a745;
+    /* Green background for CTA section */
     color: white;
+    /* White text color */
     padding: 50px 0;
+    /* Vertical padding */
     text-align: center;
+    /* Center-aligns text in CTA section */
 }
 
 .cta-section h2 {
     font-size: 36px;
+    /* Font size for CTA heading */
     margin-bottom: 20px;
+    /* Space below CTA heading */
 }
 
 .cta-section p {
     font-size: 20px;
+    /* Font size for CTA paragraph */
     margin-bottom: 30px;
+    /* Space below CTA paragraph */
 }
 
 /* Footer */
 .footer {
     background-color: #333;
+    /* Dark grey background for footer */
     color: white;
+    /* White text color */
     text-align: center;
+    /* Center-aligns text in footer */
     padding: 20px 0;
+    /* Vertical padding */
 }
 
 .social-links {
     margin-bottom: 10px;
+    /* Space below social links */
 }
 
 .social-links a {
     color: white;
+    /* White text color for social links */
     margin-right: 15px;
+    /* Space between social links */
     font-size: 24px;
+    /* Font size for social icons */
 }
 
 .social-links a:hover {
     color: #007bff;
+    /* Blue color on hover for social links */
 }
