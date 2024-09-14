@@ -2,6 +2,17 @@ InfoShare
 Introduction
 InfoShare is a lightweight web application that simplifies the process of sharing information across multiple social media platforms. The app allows users to copy content with one click and easily share it on platforms like Facebook, Instagram, WhatsApp, and YouTube.
 
+InfoShare is designed for individuals who frequently share content on social media platforms, such as bloggers, social media managers, and everyday users seeking a quick and simple way to post information.
+Landing Page
+The InfoShare landing page introduces users to the app, outlining its key features and benefits. With a clean and modern design, it provides a simple call to action, directing users to try the app with just one click.
+ <img width="1280" alt="L(1 2)" src="https://github.com/user-attachments/assets/f6bc7bae-6c3f-471d-b101-642df327ccd6">
+
+ 
+Main App Page
+The InfoShare app page is where the magic happens. The user can select the information they want to share, copy it with one click, and choose which social media platform to post it on using a set of intuitive buttons.
+<img width="1280" alt="App page" src="https://github.com/user-attachments/assets/b4995e58-f334-4fa6-a07e-815c89ee6eb2">
+
+
 Deployed Site: InfoShare Live
 Final Project Blog Article: Read the Blog
 Author LinkedIn: Koranteng Emmanuel Saforo
