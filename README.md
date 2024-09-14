@@ -7,6 +7,8 @@ Landing Page
 The InfoShare landing page introduces users to the app, outlining its key features and benefits. With a clean and modern design, it provides a simple call to action, directing users to try the app with just one click.
  <img width="1280" alt="L(1 2)" src="https://github.com/user-attachments/assets/f6bc7bae-6c3f-471d-b101-642df327ccd6">
 
+<img width="1280" alt="L(2 3)" src="https://github.com/user-attachments/assets/0ecf18f1-e3b5-4e7f-b063-cdfa9f8cf122">
+
  
 Main App Page
 The InfoShare app page is where the magic happens. The user can select the information they want to share, copy it with one click, and choose which social media platform to post it on using a set of intuitive buttons.
